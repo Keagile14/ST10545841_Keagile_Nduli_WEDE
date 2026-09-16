@@ -531,9 +531,10 @@ body{
 }
 .whatsapp-button:hover{
     transform:translateY(-5px);
+    background: #eaf8e7;
     box-shadow: 0 10px 25px rgba(2,51,54,0.34);
-}
 
+}
 .about-hero{
     position: relative;
     margin-top: 85px;

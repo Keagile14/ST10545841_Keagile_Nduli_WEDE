@@ -143,4 +143,35 @@ References
 changelog 
 
 Responsive(Tablet, Phone and PC)
+Tablet | iPad Air
+Homepage
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(iPad Air).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(iPad Air) (1).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(iPad Air) (2).png>)
 
+About Us Page  
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(iPad Air).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(iPad Air) (1).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(iPad Air) (2).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(iPad Air) (3).png>)
+
+Services Page 
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(iPad Air).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(iPad Air) (1).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(iPad Air) (2).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(iPad Air) (3).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(iPad Air) (4).png>)
+
+Enquire Page 
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_enquire.html(iPad Air).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_enquire.html(iPad Air) (1).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_enquire.html(iPad Air) (2).png>)
+
+Appointmentbooking page
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(iPad Air).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(iPad Air) (1).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(iPad Air) (2).png>)
+Testimonials page
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_testimonials.html(iPad Air).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_testimonials.html(iPad Air) (1).png>)
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_testimonials.html(iPad Air) (2).png>)
