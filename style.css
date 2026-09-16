@@ -25,7 +25,7 @@ body{
     position: relative;
     text-decoration:none;
     color:#c1e6ba;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 23px;
     font-weight: 400;
     letter-spacing: 4px;
@@ -39,7 +39,7 @@ body{
     transform:translateX(-50%);
     position: absolute;
     color:#c1e6ba;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 7px;
     font-weight: 500;
     letter-spacing: 4px;
@@ -82,7 +82,7 @@ body{
     display: block;
     text-decoration: none;
     color: #EAf8ef;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size:12px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -344,7 +344,7 @@ body{
     flex-direction: column;
     text-decoration: none;
     color: #c1e6ba;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size:23px ;
     font-weight: 400;
     letter-spacing: 6px;
@@ -369,7 +369,7 @@ body{
     max-width: 430px;
     margin:55px 0 0;
     color: #eaf8e7;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.9;
 }
@@ -408,7 +408,7 @@ body{
 .footer-contact-text h4{
     margin: 3px 0 7px;
     color:#ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 600;
 }
@@ -416,7 +416,7 @@ body{
 .footer-contact-text a{
     color:#eaf8e7;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     border-radius: 50%;
     font-size: 14px;
     line-height: 1.6;
@@ -430,7 +430,7 @@ body{
 .footer-contact-text p{
     margin: 0;
     color: #eaf8e7;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -451,7 +451,7 @@ body{
 .footer-hours h3{
     margin:0;
     color:#ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 0.3px;
@@ -471,7 +471,7 @@ body{
     margin-bottom: 10px;
     color: #eaf8ef;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.4;
     transition: color 0.3s ease, transform 0.3s ease;
@@ -487,7 +487,7 @@ body{
     gap:13px;
     margin: 0;
     color: #eaf8ef;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
 }
 .clock-icon{
@@ -505,7 +505,7 @@ body{
 .bottom-footer p{
     margin: 0;
     color:#eaf8e7;
-    font-family: Arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 13px;
     letter-spacing: 0.2px;
 }
@@ -577,7 +577,7 @@ body{
     border: 1px solid rgba(193,230,186,0.8);
     border-radius: 30px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -585,7 +585,7 @@ body{
 .about-hero-content h1{
     margin:0 0 20px;
     color:#ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 52px;
     line-height: 1.1;
 }
@@ -593,7 +593,7 @@ body{
     max-width: 650px;
     margin: 0 auto;
     color: #eef8ed;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
     line-height: 1.7;
 }
@@ -651,7 +651,7 @@ body{
     top: 25px;
     right: 30px;
     color: rgba(255,255,255,0.55);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 28px;
     font-weight: bold;
 
@@ -662,7 +662,7 @@ body{
     z-index: 2;
     margin-bottom: 12px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -672,7 +672,7 @@ body{
     z-index: 2;
     margin: 0 0 18px;
     color:#ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 34px;
 }
 .mission-vision-card p{
@@ -681,7 +681,7 @@ body{
     max-width: 470px;
     margin: 0;
     color: #f2f8f0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     line-height: 1.8;
 }
 
@@ -701,7 +701,7 @@ body{
     display: block;
     margin-bottom: 12px;
     color:#527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -709,13 +709,13 @@ body{
 .team-heading h2{
     margin: 0 0 15px;
     color: #023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 38px;
 }
 .team-heading p{
     margin: 0;
     color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 15px;
     line-height: 1.7;
 }
@@ -773,19 +773,19 @@ body{
 .doctor-front-info h3{
     margin: 0 0 7px;
     color: #023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 21px;
 }
 .doctor-front-info p{
     margin: 0 0 7px;
     color: #527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 13px;
     font-weight: bold;
 }
 .doctor-front-info span{
     color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
 }
 .doctor-back{
@@ -802,7 +802,7 @@ body{
 .doctor-back > span {
     margin-bottom: 15px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 10px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -810,14 +810,14 @@ body{
 .doctor-back h3{
     margin: 0 0 18px;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 27px;
     line-height: 1.2;
 }
 .doctor-back p{
     margin: 0;
     color: #edf7ed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.8;
 
@@ -830,7 +830,7 @@ body{
     border-radius: 25px;
     background:transparent;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     cursor: pointer;
@@ -894,7 +894,7 @@ body{
     border: 1px solid rgba(193,230,186,0.8);
     border-radius: 30px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -902,14 +902,14 @@ body{
 .enquire-hero-content h1{
     margin: 0 0 18px;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 52px;
     line-height: 1.1;
     letter-spacing: 0.5px;
 }
 .enquire-hero-content p {
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     max-width: 650px;
     margin: 0 auto;
     color: #eef8ed;
@@ -939,7 +939,7 @@ body{
     display: block;
     margin-bottom: 12px;
     color: #527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -948,7 +948,7 @@ body{
 .enquire-heading h2{
     font-size: 34px;
     line-height: 1.2;
-    font-family: georgia,serif;
+     font-family: 'Raleway', sans-serif;
     color: #023336;
     margin: 0 0 18px;
 }
@@ -957,7 +957,7 @@ body{
     max-width: 500px;
     margin: 0;
     color:#555555;
-    font-family: arial, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 15px;
     line-height: 1.8;
 }
@@ -967,7 +967,7 @@ body{
 .enquire-hours h3{
     margin: 0 0 18px;
     color: #023336;
-    font-family: Georgia,serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 22px;
 }
 .enquire-hours p{
@@ -975,8 +975,7 @@ body{
     align-items: center;
     gap: 12px;
     margin: 10px 0;
-    color: #555555;
-    font-family: arial,sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -992,13 +991,13 @@ body{
 .enquire-location h3{
     margin: 0 0 15px;
     color: #023336;
-    font-family: georgia,serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 22px;
 }
 .enquire-location p{
     margin: 0;
     color: #555555;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -1067,7 +1066,7 @@ body{
     border: 1px solid rgba(193,230,136,0.8);
     border-radius: 30px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1075,7 +1074,7 @@ body{
 .services-hero h1{
     margin: 0 0 25px;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 56px;
     line-height: 1.1;
     font-weight: 600;
@@ -1084,8 +1083,7 @@ body{
     max-width: 680px;
     margin: 0 auto;
     color: #eef8ed;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
+     font-family: 'Raleway', sans-serif;
     line-height: 1.7;
 
 }
@@ -1105,7 +1103,7 @@ body{
     display: block;
     margin-bottom: 12px;
     color:#527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1113,7 +1111,7 @@ body{
 .services-heading h2{
     margin: 0 0 18px;
     color:#023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 42px;
     line-height: 1.15;
 }
@@ -1121,7 +1119,7 @@ body{
     max-width: 650px;
     margin: 0 auto;
     color: #527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 16px;
     line-height: 1.7;
 
@@ -1187,7 +1185,7 @@ body{
     top: 18px;
     right: 25px;
     color: rgba(193,230,136,0.07);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 55px;
     font-weight: bold;
     transition: color 0.35s ease, transform 0.35s ease;
@@ -1217,7 +1215,7 @@ body{
 .services-card h3{
     margin: 0 0 15px;
     color: #023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     line-height: 1.2;
     transition: color 0.35s ease;
@@ -1229,7 +1227,7 @@ body{
 .services-card p {
     margin: 0 0 25px;
     color: #526e6b;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.7;
     transition: color 0.35s ease;
@@ -1242,7 +1240,7 @@ body{
     width: max-content;
     margin-top: auto;
     color: #315f4e;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
@@ -1284,7 +1282,7 @@ body{
     display: block;
     margin-bottom: 12px;
     color: #527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1292,7 +1290,7 @@ body{
 .services-values-heading h2{
     margin: 0;
     color: #023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 42px;
     line-height: 1.15;
 }
@@ -1314,14 +1312,14 @@ body{
 }
 .value-item span{
     color: #527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 12px;
     font-weight: bold;
 }
 .value-item h3{
     margin: 15px 0 12px;
     color: #526e6b;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -1340,7 +1338,7 @@ body{
     display: block;
     margin-bottom: 15px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1348,7 +1346,7 @@ body{
 .services-cta-content h2{
     margin: 0 0 20px;
     color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 42px;
     line-height: 1.15;
 }
@@ -1356,7 +1354,7 @@ body{
     max-width: 600px;
     margin: 0 auto 30px;
     color: #eef8ed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 16px;
     line-height: 1.7;
 }
@@ -1367,7 +1365,7 @@ body{
     border-radius: 30px;
     background: #c1e6ba;
     color: #023336;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
@@ -1415,7 +1413,7 @@ body{
     border: 1px solid rgba(193,230,186,0.8);
     border-radius: 30px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1423,7 +1421,7 @@ body{
 .appointment-hero h1 {
     margin: 0 0 25px;
     color:#ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 58px;
     line-height: 1.1;
     font-weight: 600;
@@ -1433,7 +1431,7 @@ body{
     max-width: 680px;
     margin: 0 auto;
     color: #eef8ed;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
     line-height: 1.7;
     
@@ -1491,7 +1489,7 @@ body{
     display: block;
     margin-bottom: 12px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1499,7 +1497,7 @@ body{
 .appointment-image-overlay h2{
     margin: 0 0 15px;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 32px;
     line-height: 1.2;
 }
@@ -1507,7 +1505,7 @@ body{
     max-width: 500px;
     margin: 0;
     color: #eef8ed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -1526,7 +1524,7 @@ body{
 .form-page-heading h1{
     margin: 0 0 10px;
     color: #023336;
-    font-family: Georgia,serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 34px;
     line-height: 1.2;
     text-align: center;
@@ -1535,7 +1533,7 @@ body{
 .form-page-heading p{
     margin: 0;
     color: #666666;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.6;
     text-align: center;
@@ -1556,7 +1554,7 @@ body{
 
 .form-group label{
     color: #023336;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 12px;
     font-weight: bold;
 }
@@ -1567,7 +1565,7 @@ body{
     border-radius: 8px;
     background: #f3f0df;
     color: #023336;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 13px;
     outline: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -1597,7 +1595,7 @@ body{
     border-radius: 25px;
     background:#c1e6ba;
     color: #023336;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 13px;
     font-weight: bold;
     cursor: pointer;
@@ -1644,7 +1642,7 @@ body{
     border: 1px solid rgba(193,230,136,0.8);
     border-radius: 30px;
     color: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1652,7 +1650,7 @@ body{
 .testimonial-hero h1{
     margin: 0 0 25px;
     color: #ffffff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 58px;
     line-height: 1.1;
     font-weight: 600;
@@ -1661,7 +1659,7 @@ body{
     max-width:680px;
     margin: 0 auto;
     color: #eef8ed;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
     line-height: 1.7;
 }
@@ -1681,7 +1679,7 @@ body{
     display: block;
     margin-bottom: 12px;
     color:#527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1690,7 +1688,7 @@ body{
 .testimonial-heading h1{
     margin: 0 0 15px;
     color: #023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 38px;
     font-weight: 600;
 }
@@ -1698,7 +1696,7 @@ body{
     max-width: 650px;
     margin: 0 auto;
     color: #59645c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 15px;
     line-height: 1.7;
 }
@@ -1728,7 +1726,7 @@ body{
     border: none;
     border-radius: 25px;
     background: #c1e6ba;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 13px;
     font-weight: bold;
     cursor: pointer;
@@ -1761,7 +1759,7 @@ body{
     display: block;
     margin-bottom: 10px;
     color: #527d48;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -1769,7 +1767,7 @@ body{
 .patient-reviews-heading h2{
     margin: 0;
     color: #023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 34px;
     font-weight: 600;
 }
@@ -1801,7 +1799,7 @@ body{
     top: 18px;
     right: 25px;
     color: #c1e6ba;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 65px;
     line-height: 1;
 }
@@ -1815,14 +1813,14 @@ body{
 .review-card p{
     margin: 0 0 25px;
     color: #59645c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 14px;
     line-height: 1.7;
 }
 .review-card h3{
     margin: auto 0 0;
     color: #023336;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+     font-family: 'Raleway', sans-serif;
     font-size: 17px;
     font-weight: 600;
 }

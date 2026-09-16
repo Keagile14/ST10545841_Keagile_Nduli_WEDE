@@ -1,4 +1,9 @@
 # Iron_Crown_Dentistry
+Personal Details:
+Keagile Nduli
+ST10545841
+WEDE5020
+Github repo: 
 Organization Overview  
 
 Iron Crown Dentistry is a dentist practice that offers preventive, restorative, cosmetic dentistry services. Founded in 2018 by Jon Snow. 
@@ -132,5 +137,10 @@ Available at: https://smileshopmarketing.com/top-kpis-to-measure-dental-practice
 Rifah Nawar(2026) Best Dental Website Designs to Turn Visitors into Patients [Online]
 Available at: https://www.magier.com/blog/best-dental-website-designs
 
-github repo: git@github.com:Keagile14/Keagile_Nduli_ST10545841.git
-# ST10545841_Keagile_Nduli_WEDE
+Project Part 2
+References 
+
+changelog 
+
+Responsive(Tablet, Phone and PC)
+
