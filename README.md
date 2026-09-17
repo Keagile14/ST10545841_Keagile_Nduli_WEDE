@@ -137,11 +137,30 @@ Available at: https://smileshopmarketing.com/top-kpis-to-measure-dental-practice
 Rifah Nawar(2026) Best Dental Website Designs to Turn Visitors into Patients [Online]
 Available at: https://www.magier.com/blog/best-dental-website-designs
 
-Project Part 2
+
+
+CSS Project Part 2
+
 References 
 
 
-changelog 
+brilex007(2019) How to make booking form using html and css[Online Video], 11 Dec. Available at: https://youtu.be/ShpH_1EPox0?si=9nr3zv8suIyVxeIa (Assessed: 11 September 2026) 
+
+BroCodez(2023) Learn CSS flexbox in 10 minutes[Online Video], 21 Sep. Available at: https://youtu.be/GteJWhCikCk?si=Kip-hglb06ZHVlsg (Assessed: 9 September 2026)
+
+
+CodingArtist(2021) Draw Underline Link Hover Effect, 18 Jan. Available at: https://youtu.be/aswRKAjjWuE?si=rB_1t3bpE5OaqnnG ( Assessed: 9 September 2026) 
+
+CreateStackDev(2021) How To Make Animated Website Footer Design Using HTML and CSS Step by Step[Online Video], 19 Jul. Available at: https://youtu.be/FRRlFLfdvBE?si=DVMfv-hhtGmD9gND (Assessed: 10 September 2026) 
+
+Divinector(2023) Responsive CSS Cards with Hover Overlay Animations [Online Video], 26 Jan. Available at: https://youtu.be/c-6XRnYHbkw?si=8ED9JHVS2a5gJlhM (Assessed: 12 September 2026) 
+
+EasyTutotialHindi(2024) Add Video In Website Background Using HTML and CSS[Online Video], 13 Feb. Available at: https://youtu.be/jT6QmQtlKtQ?si=KOXhCVNuAftr3y1b (Assessed: 12 September 2026) 
+
+Skillthrive(2019) Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with flexbox, 29 Apr. Available at: https://youtu.be/PwWHL3RyQgk?si=gX1uwpwmbGUfBNxv (Assessed: 9 September 2026) 
+
+
+Changelog 
 
 Responsive(Tablet, Phone and PC)
 
