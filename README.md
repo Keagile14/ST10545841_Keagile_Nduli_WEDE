@@ -140,9 +140,11 @@ Available at: https://www.magier.com/blog/best-dental-website-designs
 Project Part 2
 References 
 
+
 changelog 
 
 Responsive(Tablet, Phone and PC)
+
 Tablet | iPad Air
 Homepage
 ![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(iPad Air).png>)
@@ -175,3 +177,130 @@ Testimonials page
 ![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_testimonials.html(iPad Air).png>)
 ![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_testimonials.html(iPad Air) (1).png>)
 ![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_testimonials.html(iPad Air) (2).png>)
+
+Smartphone | Sumsang S20 Ultra
+Homepage 
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(Samsung Galaxy S20 Ultra).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(Samsung Galaxy S20 Ultra) (1).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(Samsung Galaxy S20 Ultra) (2).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_homePage.html(Samsung Galaxy S20 Ultra) (3).png>)
+AboutUs Page 
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(Samsung Galaxy S20 Ultra).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(Samsung Galaxy S20 Ultra) (1).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(Samsung Galaxy S20 Ultra) (2).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(Samsung Galaxy S20 Ultra) (3).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_aboutUs.html(Samsung Galaxy S20 Ultra) (4).png>)
+
+Services Page 
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(Samsung Galaxy S20 Ultra).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(Samsung Galaxy S20 Ultra) (1).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(Samsung Galaxy S20 Ultra) (2).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(Samsung Galaxy S20 Ultra) (3).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(Samsung Galaxy S20 Ultra) (4).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(Samsung Galaxy S20 Ultra) (5).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_services.html(Samsung Galaxy S20 Ultra) (6).png>)
+
+Enquire Page 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_enquire.html(Samsung Galaxy S20 Ultra).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_enquire.html(Samsung Galaxy S20 Ultra) (1).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_enquire.html(Samsung Galaxy S20 Ultra) (2).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_enquire.html(Samsung Galaxy S20 Ultra) (3).png>)
+
+Appointment Booking page 
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra) (1).png>)
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra) (2).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra) (3).png>)
+
+Testimonials Page 
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra) (1).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra) (2).png>) 
+
+![alt text](<_home_kea_Desktop_ST10545841_Keagile_Nduli_WEDE_appointmentBooking.html(Samsung Galaxy S20 Ultra) (3).png>)
+
+PC Lenovo
+
+Homepage 
+![alt text](<Screenshot from 2026-09-17 14-51-23.png>)
+
+![alt text](<Screenshot from 2026-09-17 14-51-33.png>)
+
+![alt text](<Screenshot from 2026-09-17 14-51-41.png>)
+
+![alt text](<Screenshot from 2026-09-17 14-51-48.png>)
+
+About Us Page
+![alt text](<Screenshot from 2026-09-17 14-52-13.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-53-22.png>)
+
+![alt text](<Screenshot from 2026-09-17 14-53-32.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-53-40.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-53-47.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-53-51.png>)
+
+Services Pages
+![alt text](<Screenshot from 2026-09-17 14-54-06.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-54-13.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-54-25.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-54-33.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-54-38.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-54-42.png>)
+
+Enquire Page
+![alt text](<Screenshot from 2026-09-17 14-54-59.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-55-06.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-55-11.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-55-16.png>)
+
+Appointment Booking Page
+![alt text](<Screenshot from 2026-09-17 14-55-24.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-55-30.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-55-34.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-55-38.png>)
+
+Testimonials Page 
+![alt text](<Screenshot from 2026-09-17 14-55-46.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-55-55.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-56-00.png>) 
+
+![alt text](<Screenshot from 2026-09-17 14-56-04.png>)
