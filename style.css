@@ -8,6 +8,8 @@ html{
 
 }
 
+/* Body css styling */
+
 body{
     margin:0;
     padding:0;
@@ -15,6 +17,8 @@ body{
     color: #023336;
     overflow-x: hidden;
 }
+
+/* logo css styling */
 
 
 .logo{
@@ -48,6 +52,9 @@ body{
 .logo a:hover{
     color:#ffffff;
 }
+
+/* header section styling */
+
 .header{
     position: fixed;
     top:0;
@@ -66,6 +73,8 @@ body{
     z-index:1000;
 
 }
+
+/* Nav links css styling */
 .navigation-links ul {
 
     list-style: none;
@@ -108,6 +117,8 @@ body{
     width:100%;
 }
 
+/* hero section css styling for all pages */
+
 .hero{
     margin-top: 85px;
     min-height: 550px;
@@ -139,6 +150,9 @@ body{
     margin: 0 0 30px;
     color: #eaf8ef;
 }
+
+
+/* homepage primary button styling */
 .primary-btn{
     display: inline-block;
     padding: 13px 28px;
@@ -155,6 +169,8 @@ body{
     color: #023336;
     transform: translateY(-2px);
 }
+
+/* services section inside homepage styling  which shows the preview*/
 
 
 .services-preview{
@@ -178,6 +194,8 @@ body{
     margin: 18px auto 45px;
     background-color: #c1e6ba;
 }
+
+/* services inside the homepage card styling */
 
 .service-grid{
     width: min(100%,1050px);
@@ -253,6 +271,9 @@ body{
 .service-card:nth-child(3)::before{
     content:"✦";
 }
+
+/* appointment  setting section */
+
 .appointment{
     max-width: 950px;
     margin: 80px auto 0;
@@ -318,6 +339,8 @@ body{
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 
 }
+
+/* footer section for all html files */
 
 .footer{
     background-color: #023336;
@@ -510,6 +533,8 @@ body{
     letter-spacing: 0.2px;
 }
 
+/* whatsapp icon that is consistent in all html pages */
+
 .whatsapp-button{
     position: fixed;
     right: 25px;
@@ -535,6 +560,8 @@ body{
     box-shadow: 0 10px 25px rgba(2,51,54,0.34);
 
 }
+
+/* about us page css styling */
 .about-hero{
     position: relative;
     margin-top: 85px;
@@ -685,6 +712,8 @@ body{
     font-family: 'Mulish', sans-serif;
     line-height: 1.8;
 }
+
+/* team section and doctor card css styling */
 
 .team-section{
     width:100%;
@@ -842,182 +871,6 @@ body{
     color: #023336;
 }
 
-.enquire-hero{
-    position: relative;
-    margin-top: 85px;
-    min-height: 430px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background: #023336;
-}
-
-.enquire-hero::before{
-    content: "";
-    position: absolute;
-    top: -25px;
-    left: -25px;
-    right: -25px;
-    bottom: -25px;
-     background-image: linear-gradient(
-        rgba(2,51,54,0.40),
-        rgba(2,51,54,0.40)
-
-    ), url("kidatdentist.jpeg");
-    background-size: cover;
-    background-position: center;
-
-    transform: scale(1.06);
-    z-index: 0;
-}
-.enquire-hero-overlay{
-    position: absolute;
-    inset: 0;
-    background: rgba(2,51,54,0.70);
-    z-index: 1;
-}
-
-.enquire-hero-content{
-    position: relative;
-    z-index: 2;
-    width: 100%;
-    max-width: 750px;
-    padding: 40px 25px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.enquire-small-title{
-    display: inline-block;
-    margin-bottom: 18px;
-    padding: 7px 18px;
-    border: 1px solid rgba(193,230,186,0.8);
-    border-radius: 30px;
-    color: #c1e6ba;
-    font-family: 'Mulish', sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-.enquire-hero-content h1{
-    margin: 0 0 18px;
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 52px;
-    line-height: 1.1;
-    letter-spacing: 0.5px;
-}
-.enquire-hero-content p {
-    font-size: 16px;
-    font-family: 'Mulish', sans-serif;
-    max-width: 650px;
-    margin: 0 auto;
-    color: #eef8ed;
-    font-size: 17px;
-    line-height: 1.7;
-
-}
-.enquire-section {
-    width: 100%;
-    padding: 85px 30px;
-    background: #f3f0df;
-}
-.enquire-container{
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
-    display: grid;
-    gap: 65px;
-    max-width: 1100px;
-    align-items: start;
-}
-.enquire-information{
-    width: 100%;
-}
-
-.enquire-heading >span{
-    display: block;
-    margin-bottom: 12px;
-    color: #527d48;
-    font-family: 'Mulish', sans-serif;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.enquire-heading h2{
-    font-size: 34px;
-    line-height: 1.2;
-     font-family: 'Raleway', sans-serif;
-    color: #023336;
-    margin: 0 0 18px;
-}
-
-.enquire-heading p{
-    max-width: 500px;
-    margin: 0;
-    color:#555555;
-    font-family: 'Mulish', sans-serif;
-    font-size: 15px;
-    line-height: 1.8;
-}
-.enquire-hours{
-    margin-top: 45px;
-}
-.enquire-hours h3{
-    margin: 0 0 18px;
-    color: #023336;
-     font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-}
-.enquire-hours p{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 10px 0;
-    font-family: 'Mulish', sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-}
-.enquire-hours p span:first-child{
-    width: 25px;
-    flex-shrink: 0;
-    text-align: center;
-    font-size: 16px;
-}
-.enquire-location{
-    margin-top: 40px;
-}
-.enquire-location h3{
-    margin: 0 0 15px;
-    color: #023336;
-    font-family: 'Raleway', sans-serif;
-    font-size: 22px;
-}
-.enquire-location p{
-    margin: 0;
-    color: #555555;
-    font-family: 'Mulish', sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
-}
-
-.map-container{
-    width: 100%;
-    margin-top: 20px;
-    overflow: hidden;
-    border-radius: 12px;
-    background: #ffffff;
-    box-shadow: 0 8px 25px rgba(2,51,54,0.15);
-}
-.map-container iframe{
-    display: block;
-    width: 100%;
-    height: 280px;
-    border: 0;
-
-}
 .services-hero{
     position: relative;
     margin-top: 85px;
@@ -1029,6 +882,9 @@ body{
     background: linear-gradient(135deg,#023336 0%, #315f4e 52%,#527d48 100%);
     overflow: hidden;
 }
+
+/* services page css styling */
+
 .services-hero::before{
     content: "";
     position: absolute;
@@ -1125,6 +981,8 @@ body{
     line-height: 1.7;
 
 }
+
+/* services page card styling */
 .services-grid{
     width: 100%;
     max-width: 1100px;
@@ -1324,6 +1182,8 @@ body{
     font-size: 14px;
     line-height: 1.7;
 }
+
+
 .services-cta{
     width: 100%;
     padding: 90px 30px;
@@ -1377,6 +1237,190 @@ body{
     background: #fff;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
+
+/* enquire page css styling */
+
+.enquire-hero{
+    position: relative;
+    margin-top: 85px;
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #023336;
+}
+
+.enquire-hero::before{
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    right: -25px;
+    bottom: -25px;
+     background-image: linear-gradient(
+        rgba(2,51,54,0.40),
+        rgba(2,51,54,0.40)
+
+    ), url("kidatdentist.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    transform: scale(1.06);
+    z-index: 0;
+}
+.enquire-hero-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(2,51,54,0.70);
+    z-index: 1;
+}
+
+.enquire-hero-content{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 750px;
+    padding: 40px 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.enquire-small-title{
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 7px 18px;
+    border: 1px solid rgba(193,230,186,0.8);
+    border-radius: 30px;
+    color: #c1e6ba;
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.enquire-hero-content h1{
+    margin: 0 0 18px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+}
+.enquire-hero-content p {
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    color: #eef8ed;
+    font-size: 17px;
+    line-height: 1.7;
+
+}
+.enquire-section {
+    width: 100%;
+    padding: 85px 30px;
+    background: #f3f0df;
+}
+.enquire-container{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    display: grid;
+    gap: 65px;
+    max-width: 1100px;
+    align-items: start;
+}
+.enquire-information{
+    width: 100%;
+}
+
+.enquire-heading >span{
+    display: block;
+    margin-bottom: 12px;
+    color: #527d48;
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.enquire-heading h2{
+    font-size: 34px;
+    line-height: 1.2;
+     font-family: 'Raleway', sans-serif;
+    color: #023336;
+    margin: 0 0 18px;
+}
+
+.enquire-heading p{
+    max-width: 500px;
+    margin: 0;
+    color:#555555;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.enquire-hours{
+    margin-top: 45px;
+}
+.enquire-hours h3{
+    margin: 0 0 18px;
+    color: #023336;
+     font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+.enquire-hours p{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 10px 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.enquire-hours p span:first-child{
+    width: 25px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 16px;
+}
+.enquire-location{
+    margin-top: 40px;
+}
+.enquire-location h3{
+    margin: 0 0 15px;
+    color: #023336;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+.enquire-location p{
+    margin: 0;
+    color: #555555;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* iframe mapcontainer that is embedded into the enquire section */
+
+.map-container{
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 8px 25px rgba(2,51,54,0.15);
+}
+.map-container iframe{
+    display: block;
+    width: 100%;
+    height: 280px;
+    border: 0;
+
+}
+
+/* appointment section css styling */
+
 .appointment-hero{
     position: relative;
     min-height: 520px;
@@ -1511,6 +1555,8 @@ body{
     line-height: 1.7;
 }
 
+/* form section class that is consistent in the enquire and testimonials page  */
+
 .form-container{
     width: 100%;
     padding: 38px;
@@ -1588,6 +1634,9 @@ body{
     resize: vertical;
     line-height: 1.5;
 }
+
+/* submit button styling */
+
 .submit-btn{
     align-self: flex-start;
     margin-top: 5px;
@@ -1608,6 +1657,8 @@ body{
     box-shadow: 0 5px 15px rgba(2,51,54,0.15);
 
 }
+
+/* testimonials page css styling */
 .testimonial-hero{
     position: relative;
     min-height: 500px;
@@ -1835,9 +1886,6 @@ body{
 }
 @media (max-width: 900px){
 
-    /* =========================
-       HEADER
-    ========================== */
 
     .header{
         flex-direction: column;
@@ -1863,9 +1911,6 @@ body{
     }
 
 
-    /* =========================
-       HOME HERO
-    ========================== */
 
     .hero{
         margin-top: 145px;
@@ -1881,10 +1926,6 @@ body{
         font-size: 18px;
     }
 
-
-    /* =========================
-       HOME SERVICES
-    ========================== */
 
     .services-preview{
         padding: 75px 25px;
@@ -1905,9 +1946,6 @@ body{
     }
 
 
-    /* =========================
-       HOME APPOINTMENT CTA
-    ========================== */
 
     .appointment{
         margin-top: 65px;
@@ -1923,9 +1961,7 @@ body{
     }
 
 
-    /* =========================
-       ABOUT HERO
-    ========================== */
+  
 
     .about-hero{
         margin-top: 125px;
@@ -1945,9 +1981,6 @@ body{
     }
 
 
-    /* =========================
-       MISSION & VISION
-    ========================== */
 
     .mission-vision-section{
         padding: 75px 25px;
@@ -1969,9 +2002,6 @@ body{
     }
 
 
-    /* =========================
-       TEAM
-    ========================== */
 
     .team-section{
         padding: 75px 25px;
@@ -1999,9 +2029,6 @@ body{
     }
 
 
-    /* =========================
-       ENQUIRE HERO
-    ========================== */
 
     .enquire-hero{
         margin-top: 125px;
@@ -2021,9 +2048,7 @@ body{
     }
 
 
-    /* =========================
-       ENQUIRE SECTION
-    ========================== */
+
 
     .enquire-section{
         padding: 75px 25px;
@@ -2048,9 +2073,6 @@ body{
     }
 
 
-    /* =========================
-       SERVICES HERO
-    ========================== */
 
     .services-hero{
         margin-top: 125px;
@@ -2067,9 +2089,7 @@ body{
     }
 
 
-    /* =========================
-       SERVICES SECTION
-    ========================== */
+   
 
     .services-section{
         padding: 80px 25px;
@@ -2098,9 +2118,7 @@ body{
     }
 
 
-    /* =========================
-       SERVICES VALUES
-    ========================== */
+  
 
     .services-values{
         padding: 75px 25px;
@@ -2124,9 +2142,6 @@ body{
     }
 
 
-    /* =========================
-       SERVICES CTA
-    ========================== */
 
     .services-cta{
         padding: 75px 25px;
@@ -2141,9 +2156,6 @@ body{
     }
 
 
-    /* =========================
-       APPOINTMENT HERO
-    ========================== */
 
     .appointment-hero{
         margin-top: 125px;
@@ -2160,9 +2172,7 @@ body{
     }
 
 
-    /* =========================
-       APPOINTMENT SECTION
-    ========================== */
+ 
 
     .appointment-section{
         padding: 80px 25px;
@@ -2198,9 +2208,6 @@ body{
     }
 
 
-    /* =========================
-       GENERAL FORM
-    ========================== */
 
     .form-container{
         padding: 35px;
@@ -2210,10 +2217,6 @@ body{
         font-size: 32px;
     }
 
-
-    /* =========================
-       TESTIMONIAL HERO
-    ========================== */
 
     .testimonial-hero{
         margin-top: 125px;
@@ -2230,9 +2233,6 @@ body{
     }
 
 
-    /* =========================
-       TESTIMONIAL SECTION
-    ========================== */
 
     .testimonial-section{
         padding: 75px 25px 85px;
@@ -2308,9 +2308,7 @@ body{
     }
 
 
-    /* =========================
-       WHATSAPP
-    ========================== */
+ 
 
     .whatsapp-button{
         right: 20px;
@@ -3056,9 +3054,6 @@ body{
 
 @media (max-width: 400px){
 
-    /* =========================
-       HEADER
-    ========================== */
 
     .header{
         height: 145px;
