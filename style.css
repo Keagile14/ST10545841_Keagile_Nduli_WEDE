@@ -1554,7 +1554,44 @@ body{
     font-size: 14px;
     line-height: 1.7;
 }
+.error-message{
+    color: #b83a2e;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+}
 
+.form-group input.input-error,
+.form-group select.input-error {
+    border-color: #b83a2e;
+    box-shadow: 0 0 0 3px rgba(184,58,46,0.12);
+}
+.form-hint {
+    color: #666666;
+    font-family: 'Mulish', sans-serif;
+    font-size: 11px;
+}
+
+.summary-box {
+    display: none;
+    pad: 13px 16px;
+    background: #f3f0df;
+    border-left: 4px solid #527d48;
+    border-radius: 6px;
+    color: #023336;
+    font-family: 'Mulish', sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.summary-box.show{
+    display: block;
+}
+
+.modal.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    
+}
 /* form section class that is consistent in the enquire and testimonials page  */
 
 .form-container{
