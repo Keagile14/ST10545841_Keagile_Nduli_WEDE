@@ -59,19 +59,22 @@
 
                   
                 <div class="form-container">
-            <form action="#" class="patient-form">
+            <form action="#" class="patient-form" id="bookingForm" novalidate>
             <div class="form-group">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" name="name" placeholder="John Snow" required>
+                <span class="error-message" id="nameError"></span>
 
             </div>
             <div class="form-group">
                 <label for="email">Email Address</label>
                 <input type="email" id="email" placeholder="eg@gmail.com" required>
+                <span class="error-message" id="emailError"></span>
             </div>
             <div class="form-group">
                 <label for="phone">Phone Number</label>
                 <input type="tel" id="phone" placeholder="+27 61 685 5391">
+                <span class="error-message" id="phoneError"></span>
             </div>
             <div class="form-group">
                 <label for="subject">Appointment Type</label>
@@ -83,12 +86,14 @@
                     <option value="consultation">Consultation</option>
                     <option value="followup">Follow-up session</option>
                 </select>
+                <span class="error-message" id="serviceError"></span>
             
             </div>
             <div class="form-group">
                 <label for="date">Select Date</label>
                 <input type="date" id="date" name="date" required>
-
+                <span class="form-hint">We Are Closed on Sundays</span>
+                <span class="error-message" id="dateError"></span>
             </div>
              <!--Drop down to select time-->
             <div class="form-group">
@@ -116,7 +121,10 @@
                     <option value="17:00 PM">5:00 PM</option>
                     
                 </select>
+                <span class="error-message" id="timeError"></span>
 
+            </div>
+            <div class="summary-box" id="summaryBox">
 
             </div>
             <button type="submit" class="submit-btn">Confirm Appointment</button>
@@ -131,6 +139,44 @@
 
            
           </main>
+
+          <div class="modal-overlay" id="modal">
+            <div class="modal-box">
+
+                <div id="reviewView">
+                    <h3>
+                        Check Your Details
+                    </h3>
+                    <ul>
+                        <li><span>Name</span><span id="detailName"></span></li>
+                        <li><span>Email</span><span id="detailEmail"></span></li>
+                        <li><span>Phone</span><span id="detailPhone"></span></li>
+                        <li><span>Service</span><span id="detailService"></span></li>
+                        <li><span>Date</span><span id="detailDate"></span></li>
+                        <li><span>Time</span><span id="detailTime"></span></li>
+                    </ul>
+                    <div class="modal-buttons">
+                        <button type="button" class="modal-btn" id="editBtn">Edit details </button>
+                         <button type="button" class="modal-btn modal-btn-main" id="confirmBtn">Confirm Booking</button>
+                    </div>
+                </div>
+
+                <div class="success-view hidden" id="successView">
+                    <div class="success-tick">
+
+                    </div>
+                    <h3>You're Booked In!</h3>
+                    <p>Your Reference Number is</p>
+                    <div class="ref-number" id="refNumber"></div>
+                    <div class="modal-buttons">
+                        <button type="button" class="modal-btn modal-btn-main" id="doneBtn">Done</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+          </div>
    
  <footer class="footer">
     <div class="footer-container">
@@ -209,5 +255,6 @@
  <!--Whatsapp link to business for communication-->
 <a href="https://wa.me/27606855381" target="_blank" class="whatsapp-button" aria-label="Contact Iron Crown Dentistry on Whatsapp"><img src="whatsapp.png" alt="Whatsapp">
 </a>
+<script src="script.js"></script>
 </body>
 </html>
