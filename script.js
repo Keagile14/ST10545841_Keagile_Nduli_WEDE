@@ -23,9 +23,9 @@ const form = document.getElementById("bookingForm");
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const phoneInput = document.getElementById("phone");
-const serviceInput = document.getElementById("subject");
+const serviceSelect = document.getElementById("subject");
 const dateInput = document.getElementById("date");
-const timeInput = document.getElementById("time");
+const timeSelect = document.getElementById("time");
 
 //This is the error messages
 
@@ -138,7 +138,7 @@ function updateTimes(){
             continue; 
         }
 
-        if (isBooked(choseDate, option.value)){
+        if (isBooked(chosenDate, option.value)){
             option.disabled = true;
         }
 
@@ -161,8 +161,18 @@ function updateTimes(){
     }
 }
 
+function prettyDate(dateText){
+    const dateObject = new Date(dateText + "T00:00:00");
+    return dateObject.toLocaleDateString("en-ZA",{
+        weekday: "long",
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+    });
+}
+
 function updateSummary(){
-    if (serviceSelect.value !== "" && timeSelect.value !== ""){
+    if (serviceSelect.value !== "" && dateInput.value !== "" && timeSelect.value !== ""){
         const serviceText = serviceSelect.options[serviceSelect.selectedIndex].text;
         const timeText = timeSelect.options[timeSelect.selectedIndex].text;
 
