@@ -1562,7 +1562,7 @@ body{
 
 .form-group input.input-error,
 .form-group select.input-error {
-    border-color: #b83a2e;
+    border :1px solid #b83a2e !important;
     box-shadow: 0 0 0 3px rgba(184,58,46,0.12);
 }
 .form-hint {
@@ -2031,6 +2031,23 @@ body{
     height: 2px;
     margin-bottom: 10px;
     background: #c1e6ba;
+}
+.star-preview{
+    display: block;
+    color: #527d48;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 8px;
+}
+.form-success {
+    padding:15px;
+    margin-bottom: 20px;
+    background-color: #eaf8e7;
+    color: #023336;
+    border: 1px solid #c1e6ba;
+    border-radius: 8px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
 }
 @media (max-width: 900px){
 

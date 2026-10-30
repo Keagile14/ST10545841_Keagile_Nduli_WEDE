@@ -56,13 +56,18 @@
                 </h1>
                 <p>We value your feedback. Let us know how your experience was with our dental team.</p>
             </div>
+            
 
        <div class="testimonial-form-container">
         <div class="form-container">
-            <form action="#" class="patient-form">
+            <div class="form-success hidden" id="successMessage">
+                Thank you! Your review has been addded below.
+            </div>
+            <form action="#" class="patient-form" id="reviewForm" novalidate>
         <div class="form-group">
             <label for="name">Your name</label>
             <input type="text" id="name" name="name" placeholder="Enter your name">
+            <span class="error-message" id="nameError"></span>
         </div>
         <div class="form-group">
             <label for="rating">Rating</label>
@@ -74,23 +79,27 @@
                 <option value="2">2 Stars</option>
                 <option value="1">1 Star</option>
             </select>
+            <span class="star-preview" id="starPreview"></span>
+            <span class="error-message" id="ratingError"></span>
         </div>
+
         <div class="form-group">
-            <label for="testimonials">Your Testimonial</label>
+            <label for="testimonial">Your Testimonial</label>
             <textarea
             id="testimonial"
             name="testimonial"
             rows="5"
             placeholder="How was your experience?"
             required>
-        </textarea>        
+        </textarea>    
+        <span class="error-message" id="testimonialError"></span>    
         </div>
         <button type="submit" class="submit-btn">Submit Review</button>
      </form>
         </div>
 
        </div>
-        <div class="patient-review">
+        <div class="patient-reviews">
             <div class="patient-reviews-heading">
                 <span>
                     PATIENT FEEDBACK
@@ -98,7 +107,7 @@
                 <h2>What our patients say</h2>
 
             </div>
-            <div class="review-grid">
+            <div class="review-grid" id="reviewGrid">
                 <article class="review-card">
                     <div class="review-stars">
                         ★ ★ ★ ★ ★
@@ -224,5 +233,6 @@
 <a href="https://wa.me/27606855381" target="_blank" class="whatsapp-button" aria-label="Contact Iron Crown Dentistry on Whatsapp"><img src="whatsapp.png" alt="Whatsapp">
 </a>
 
+<script src="script.js"> </script>
 </body>
 </html>

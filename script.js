@@ -16,50 +16,43 @@ document.addEventListener("DOMContentLoaded",function(){
     });
 });
 
-//Iron Crown Dentistry - Appointment Booking Page
+document.addEventListener("DOMContentLoaded", function(){
+    const form = document.getElementById("bookingForm");
 
-const form = document.getElementById("bookingForm");
+    if(form){
+        const nameInput = document.getElementById("name");
+        const emailInput = document.getElementById("email");
+        const phoneInput = document.getElementById("phone");
+        const serviceSelect = document.getElementById("subject");
+        const dateInput = document.getElementById("date");
+        const timeSelect = document.getElementById("time");
 
-const nameInput = document.getElementById("name");
-const emailInput = document.getElementById("email");
-const phoneInput = document.getElementById("phone");
-const serviceSelect = document.getElementById("subject");
-const dateInput = document.getElementById("date");
-const timeSelect = document.getElementById("time");
+        const nameError = document.getElementById("nameError");
+        const emailError = document.getElementById("emailError");
+        const phoneError = document.getElementById("phoneError");
+        const serviceError = document.getElementById("serviceError");
+        const dateError = document.getElementById("dateError");
+        const timeError = document.getElementById("timeError");
 
-//This is the error messages
+        const summaryBox = document.getElementById("summaryBox");
 
-const nameError= document.getElementById("nameError");
-const emailError = document.getElementById("emailError");
-const phoneError = document.getElementById("phoneError");
-const serviceError = document.getElementById("serviceError");
-const dateError = document.getElementById("dateError");
-const timeError = document.getElementById("timeError");
+        const modal = document.getElementById("modal");
+        const reviewView = document.getElementById("reviewView");
+        const successView = document.getElementById("successView");
 
-//This is summary box
+        const editBtn = document.getElementById("editBtn");
+        const confirmBtn = document.getElementById("confirmBtn");
+        const doneBtn = document.getElementById("doneBtn");
+        const refNumber = document.getElementById("refNumber");
 
-const summaryBox = document.getElementById("summaryBox");
+        const detailName = document.getElementById("detailName");
+        const detailEmail = document.getElementById("detailEmail");
+        const detailPhone = document.getElementById("detailPhone");
+        const detailService = document.getElementById("detailService");
+        const detailDate = document.getElementById("detailDate");
+        const detailTime = document.getElementById("detailTime");
 
-//modal that will pop up
-const modal = document.getElementById("modal");
-const reviewView = document.getElementById("reviewView");
-const successView = document.getElementById("successView");
-const editBtn = document.getElementById("editBtn");
-const confirmBtn = document.getElementById("confirmBtn");
-const doneBtn = document.getElementById("doneBtn");
-const refNumber = document.getElementById("refNumber");
-
-
-const detailName = document.getElementById("detailName");
-const detailEmail = document.getElementById("detailEmail");
-const detailPhone = document.getElementById("detailPhone");
-const detailService = document.getElementById("detailService");
-const detailDate = document.getElementById("detailDate");
-const detailTime = document.getElementById("detailTime");
-
-
-
-function formatDate(dateObject){
+        function formatDate(dateObject){
     let year = dateObject.getFullYear();
     let month = dateObject.getMonth() + 1; //months will start at 0, this will add one
     let day = dateObject.getDate();
@@ -350,10 +343,196 @@ document.addEventListener("keydown", function(event){
         modal.classList.remove("show");
     }
 });
+        updateTimes();
+    }
+});
 
+document.addEventListener("DOMContentLoaded", function(){
+    const reviewForm = document.getElementById("reviewForm");
 
+    if(reviewForm){
+        const reviewName = document.getElementById("name");
+        const rating = document.getElementById("rating");
+        const testimonial = document.getElementById("testimonial");
 
+        const nameError = document.getElementById("nameError");
+        const ratingError = document.getElementById("ratingError");
+        const testimonialError = document.getElementById("testimonialError");
 
+        const starPreview = document.getElementById("starPreview");
+        const reviewGrid = document.getElementById("reviewGrid");
+        const successMessage = document.getElementById("successMessage");
 
+        function showReviewError(input, errorElement, message){
+            errorElement.textContent = message;
+            input.classList.add("input-error");
 
+        }
 
+        function clearReviewError(input, errorElement){
+            errorElement.textContent = "";
+            input.classList.remove("input-error");
+        }
+
+        function checkReviewName(){
+            if(reviewName.value.trim() === ""){
+                showReviewError(
+                    reviewName,
+                    nameError,
+                    "Please enter your name"
+                );
+
+                return false;
+            }
+
+            clearReviewError(reviewName, nameError);
+            return true;
+        }
+
+        function checkRating(){
+            if(rating.value === ""){
+                showReviewError(
+                    rating,
+                    ratingError,
+                    "Please select a rating"
+                );
+
+                return false;
+            }
+            clearReviewError(rating, ratingError);
+            return true; 
+        }
+
+        function checkTestimonial(){
+            if(testimonial.value.trim() === ""){
+                showReviewError(
+                    testimonial,
+                    testimonialError,
+                    "Please write your testimonial"
+                );
+                return false;
+            }
+
+            if(testimonial.value.trim().length < 10){
+                showReviewError(
+                    testimonial,
+                    testimonialError,
+                    "Your testimonial must at least be 10 characters"
+                );
+                return false;
+            }
+
+            clearReviewError(testimonial, testimonialError);
+            return true;
+        }
+
+        rating.addEventListener("change", function(){
+            const stars = "★".repeat(Number(rating.value));
+
+            starPreview.textContent = stars;
+
+            checkRating();
+        });
+
+        reviewName.addEventListener("blur", checkReviewName);
+        testimonial.addEventListener("blur", checkTestimonial);
+
+        function getReviews(){
+            const savedReviews = localStorage.getItem("ironCrownReviews");
+
+            if(savedReviews === null){
+                return [];
+            }
+
+            return JSON.parse(savedReviews);
+
+        }
+
+        function savedReviews(reviews){
+            localStorage.setItem(
+                "ironCrownReviews", JSON.stringify(reviews)
+            );
+        }
+
+        function displayReview(name, stars, message){
+            const reviewCard = document.createElement("article");
+
+            reviewCard.classList.add("review-card");
+
+            const starElement = document.createElement("div");
+
+            starElement.classList.add("review-stars");
+
+            starElement.textContent = "★".repeat(Number(stars));
+
+            const messageElement = document.createElement("p");
+            messageElement.textContent = message;
+
+            const nameElement = document.createElement("h3");
+
+            nameElement.textContent = name;
+
+            reviewCard.appendChild(starElement);
+            reviewCard.appendChild(messageElement);
+            reviewCard.appendChild(nameElement);
+
+            reviewGrid.appendChild(reviewCard);
+
+        }
+
+        function loadReviews(){
+            const reviews = getReviews();
+            for(let i = 0; i < reviews.length; i++){
+                displayReview(
+                    reviews[i].name,
+                    reviews[i].rating,
+                    reviews[i].testimonial
+                );
+            }
+        }
+        loadReviews();
+
+        reviewForm.addEventListener("submit", function(event){
+            event.preventDefault();
+
+            const nameOk = checkReviewName();
+
+            const ratingOk = checkRating();
+
+            const testimonialOk = checkTestimonial();
+
+            if(!nameOk || !ratingOk || !testimonialOk){
+                return;
+            }
+
+            const newReview = {
+                name: reviewName.value.trim(),
+                rating: rating.value,
+                testimonial: testimonial.value.trim()
+            };
+
+            const reviews = getReviews();
+
+            reviews.push(newReview);
+
+            savedReviews(reviews);
+
+            displayReview(
+                newReview.name,
+                newReview.rating,
+                newReview.testimonial
+            );
+
+            successMessage.classList.remove("hidden");
+
+            reviewForm.reset();
+
+            starPreview.textContent = "";
+
+            setTimeout(function(){
+                successMessage.classList.add("hidden");
+
+            }, 4000);
+        });
+    }
+});
