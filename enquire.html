@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iron Crown Dentistry | Enquire Page</title>
+    <!-- added seo to title "Dental enquries in hammanskraal" -->
+    <title>Dental Enquiries in Hammanskraal | Iron Crown Dentistry</title>
+    <!-- meta description -->
+    <meta name="description" content="Contact Iron Crown Dentistry in Hammanskraal for enquiries about our preventive, cosmetic and restorative dental services. Our team is happy to assist you.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -38,8 +41,8 @@
 
             <div class="enquire-hero-content">
                 <span class="enquire-small-title">LET'S TALK</span>
-
-                <h1>Enquire With Us</h1>
+                <!-- added seo keyword "Dental Enquiries in Hammanskraal" -->
+                <h1>Dental Enquiries in Hammanskraal</h1>
                 <p>Have a question about our dental services?
                     Send us an enquiry and our team will be happy to assist you.
                 </p>
@@ -106,10 +109,10 @@
 
                 </div>
 
-                <form action="#" class="patient-form">
+                <form action="#" class="patient-form" id="enquireForm">
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input type="text" name="" id="name" placeholder="John Snow" required>
+                        <input type="text" name="name" id="name" placeholder="John Snow" required>
 
                     </div>
 
@@ -147,6 +150,9 @@
                         Submit Enquiry
 
                     </button>
+                    <p id="enquirySuccess" style="display: none;">
+                        Thank you for your enquiry! We will get back to you soon.
+                    </p>
                 </form>
 
              </div>
@@ -237,5 +243,7 @@
  <!--Whatsapp link to business for communication-->
 <a href="https://wa.me/27606855381" target="_blank" class="whatsapp-button" aria-label="Contact Iron Crown Dentistry on Whatsapp"><img src="whatsapp.png" alt="Whatsapp">
 </a>
+
+<script src="script.js"> </script>
 </body>
 </html>

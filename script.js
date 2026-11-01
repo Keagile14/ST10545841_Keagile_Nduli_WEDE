@@ -1,3 +1,5 @@
+//Services page javascript, this adds functionality to flip card
+
 document.addEventListener("DOMContentLoaded",function(){
     const doctorCards = document.querySelectorAll(".doctor-card");
     doctorCards.forEach(function (card){
@@ -14,6 +16,35 @@ document.addEventListener("DOMContentLoaded",function(){
             });
         }
     });
+});
+
+//Enquire page that checks required fields, email validation and displays a success message
+document.addEventListener("DOMContentLoaded", function(){
+    const enquiryForm = document.getElementById("enquireForm");
+    const successMessage = document.getElementById("enquirySuccess");
+
+    if(enquiryForm){
+        enquiryForm.addEventListener("submit", function(event){
+            event.preventDefault();
+
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
+
+            if (name === "" || email === "" || message === ""){
+                alert("Please complete all the required fields");
+                return;
+            }
+
+            if (!email.includes("@") || !email.includes(".")){
+                alert("Please enter a valid email address. ");
+                return;
+            }
+
+            successMessage.style.display = "block";
+            enquiryForm.reset();
+        });
+    }
 });
 
 document.addEventListener("DOMContentLoaded", function(){
