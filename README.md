@@ -612,3 +612,7 @@ Ashbridge, Z. (2026). What is SEO – Search Engine Optimization. Available at: 
 TMdesign.(2024). UX and SEO: The path to improved web performance. Available at: https://medium.com/theymakedesign/ux-and-seo-5d3e8276f16f (Assessed: 30 October 2026) 
 
 Wpfoss Team.(2026). The role of SEO in web development(2026 Guide). Available at: https://wpfoss.ke/blog/role-of-seo-in-web-development/ (Assessed: 30 October 2026). 
+
+Live Blogger (2023) Design A Responsive Testimonials Page using HTML, CSS and JS(Part 2). Available at: https://m.youtube.com/watch?v=RbVY3UsUx_g&t=50s&pp=2AEykAIB&ra=m (Assessed: 1 November 2026) 
+
+JsAcademyOfficial (2021) Form validation using JavaScript on the client side for beginners. Available at: https://m.youtube.com/watch?v=RbVY3UsUx_g&t=50s&pp=2AEykAIB&ra=m (Assessed: 28 October 2026) 
