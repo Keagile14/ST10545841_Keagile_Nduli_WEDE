@@ -481,3 +481,134 @@ Added a "PATIENT FEEDBACK" heading
 Added the heading "What our patients say"
 Created a review grid containing three review cards 
 added star ratings, testimonial text and patient lables tp each card. 
+
+Keagile Nduli Portfolio of Evidence(POE) Formative Part 3
+
+Define SEO and its purpose in web development 
+
+Search Engine Optimization is a practice web developers use to improve websites and digital content. SEO helps with increased visibility and website traffic. (Ashbridge, 2026). Its purpose is to make websites easier for search engines to crawl, understand, and index, helping users find relevant information more easily. SEO also establishes a strong foundation for organic website traffic and a better user experience. (Ashbridge, 2026; WPfoss Team,2026) 
+
+Explain how SEO practices can improve user experience and website performance 
+
+Search Engine Optimization and user experience (UX) work hand in hand together to improve website usability and performance. Techniques such as faster page loading, mobile responsiveness, and organized website architecture make websites easier to navigate. SEO also focuses on Core Web Vitals, which measure loading performance, interactivity and visible stability, contributing to a better user experience (Medium, 2024). 
+
+Benefits of implementing SEO on a website 
+
+Implementing SEO increases organic website traffic, improves online visibility, and builds credibility. It can attract potential customers without relying entirely on paid advertising. SEO also improves website accessibility, usability and overall performance, helping businesses reach a wider audience. (Francis, 2026). 
+
+Explain and demonstrate specific SEO techniques using html, CSS and JavaScript where applicable  
+
+HTML uses semantic, descriptive alt text; responsive CSS supports mobile-first indexing. Lazy-loading and deferring JavaScript improves speed 
+
+<h1>Chocolate cake<h1> 
+
+<img src=”cake.webp” alt=”Chocolate 3 layered cake" loading=”lazy” width=”600” height=”400”> 
+
+<link rel=”canonical” href=”https://example.com/cakes”> 
+
+<script type=”application/ld+json”>  {“@context” :”https://schema.org”, “@type”:”Product”, “name”:”Chocolate cake”} </script> 
+
+Img { max-width:100%; height:auto} 
+
+@media (max-width:600px) {nav {flex-direction: column;}} 
+
+Explain the purpose of HTML meta elements and demonstrate relevant examples 
+
+The purpose of meta elements is to help provide metadata about a page that browsers and search engines use buy users don’t see (MDN Web Docs, 2024) 
+
+<meta charset=”UTF-8”> 
+
+<meta name=”viewport” content=”width=device-width, initial-scale=1”> 
+
+<meta name=”description” content=”Three layered chocolate cake”> 
+
+<meta name=”robots” content=”index, follow”> 
+
+Change Log of Formative 3 
+
+Changelog: homePage.html
+- Changed the page title to lead with the target keyword("Dentist in Hammanskraal")
+- Added a meta description that mentions the location and the three service types
+- Changed the main heading to "Your Trusted Dentist in Hammanskraal" so the keyword appears in the heading
+- moved the slogan "Your smile, our craft" by moving it into a <span> above the heading
+
+Changelog: aboutUs.html
+- Changed the page title to include the service and
+- location("Dental Team in Hammanskraal").
+- Added a meta description so search engines show a clear summary of the page
+
+Changelog: services.html
+- Changed the title and main headng to include " Dental services in Hammanskraal" and added a meta description
+- Corrected the section heading ("Service to services") and three spelling mistakes.
+
+Changelog: enquire.html
+- Changed the title abd h1 to "Dental Enquiries in Hammanskraal" and added a meta description 
+- Added an id to the form and a hidden success message to JavaScript can show a confirmation
+- Fixed the full name field had an empty name attribute
+- linked script.s to the page 
+
+Changelog: appointmentBooking.html
+ - Added an SEO title and meta description and changed the h1 to add keyword "Hammanskraal"
+ - Fixed typos
+ - Added form ids, error message spots, a summary box and a confirmation popup for the new JavaScript.
+ - Changed time values to 24-hour format
+ - Linked script.js
+Changelog: Testimonials.html
+- Added an SEO title, meta description
+- Added form ids, error message spots
+- Added a star preview and a success message for the new JS
+- Fixed the label link and the reviews wrapper class so they can match the CSS
+- Linked script.js
+
+CSS Changelog 
+- Added styling for individual error messages displayed underneath form fields
+- Added a red border around input fields containing errors using the input-error class
+- Added styling to the appointment summary box
+- Created a mocal overlay and modal box for appointment confirmation 
+- Added styling for the appointment confirmation and success views 
+- Added a hidden class to control which parts of the confirmation window are displayed
+
+
+Javascript Changelog
+Enquire Page Javascript
+- Added JavaScript to check whether the name, email and message fields have been completed
+- Added a validation to check that the email address contains an "@" symbol and a full stop
+- Added alert messages to notify users when required information is missing or incorrect 
+- Added a success message that appears after the form has been completed correctly.
+- Added functionality to rest the form after the successful submission
+
+Appointment Page Javascript 
+- Added validation for the patients name, email address, phone number, selected service, date and appointment time.
+- Added individual error messages under fields that contain missing or incorrect information
+- Added functionality to highlight incorrect fields using CSS classes.
+- Restricted appointment dates to prevent users from selecting dates in the past or dates more than three months ahead.
+- Added validation to prevent appointments from being booked on Sundays.
+Added functionality to prevent users from selecting appointment times that have already passed.
+- Used local storage to save appointment dates and times and prevent the same time slots from being booked again 
+- Added a confirmation window that allows users to review their appointment details before confirming
+- Added an option to return and edit appointment details before confirmation
+- Added a success message displaying the appointment reference number 
+- Added buttons to close the confirmation window and return to the website
+
+Testimonial JavaScript Changelog
+- Added JavaScript to validate the review form
+- Added validation to ensure that the user's name, rating and testimonia;s are completed
+- Added a requirement that testimonials must contain at least 10 characters
+- Added error messages to indicate which fields need to be corrected 
+- Added a star preview that updates when a user selects a rating
+- Used Local Storage to save submitted reviews
+- Added functionality to display newly submitted reviews as review cards at the buttom of the page 
+- Added functionality to retrieve and display previously submitted reviews when the page is opened again
+- Added a success message after a review has been submitted 
+- Reset the review form after successful submission 
+
+
+Reference list  
+
+Andy, F.(2026) 14 Benefits of SEO for businesses in 2026. Available at: https://www.rivalmind.com/what-are-the-benefits-of-seo (Assessed: 30 October 2026). 
+
+Ashbridge, Z. (2026). What is SEO – Search Engine Optimization. Available at: https://searchengineland.com/guide/what-is-seo (Assessed: 30 October 2026). 
+
+TMdesign.(2024). UX and SEO: The path to improved web performance. Available at: https://medium.com/theymakedesign/ux-and-seo-5d3e8276f16f (Assessed: 30 October 2026) 
+
+Wpfoss Team.(2026). The role of SEO in web development(2026 Guide). Available at: https://wpfoss.ke/blog/role-of-seo-in-web-development/ (Assessed: 30 October 2026). 
