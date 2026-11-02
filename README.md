@@ -616,3 +616,4 @@ Wpfoss Team.(2026). The role of SEO in web development(2026 Guide). Available at
 Live Blogger (2023) Design A Responsive Testimonials Page using HTML, CSS and JS(Part 2). Available at: https://m.youtube.com/watch?v=RbVY3UsUx_g&t=50s&pp=2AEykAIB&ra=m (Assessed: 1 November 2026) 
 
 JsAcademyOfficial (2021) Form validation using JavaScript on the client side for beginners. Available at: https://m.youtube.com/watch?v=RbVY3UsUx_g&t=50s&pp=2AEykAIB&ra=m (Assessed: 28 October 2026) 
+Florin Pop (2020) Create a Modal (Popup) with HTML/CSS and Javascript. Available at: https://m.youtube.com/watch?v=XH5OW46yO8I&pp=ygUIbW9kYWwganPSBwkJKwwBhyohjO8%3D&ra=m (Assessed: 28 October 2026)
