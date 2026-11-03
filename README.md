@@ -583,7 +583,7 @@ Appointment Page Javascript
 - Added functionality to highlight incorrect fields using CSS classes.
 - Restricted appointment dates to prevent users from selecting dates in the past or dates more than three months ahead.
 - Added validation to prevent appointments from being booked on Sundays.
-Added functionality to prevent users from selecting appointment times that have already passed.
+- Added functionality to prevent users from selecting appointment times that have already passed.
 - Used local storage to save appointment dates and times and prevent the same time slots from being booked again 
 - Added a confirmation window that allows users to review their appointment details before confirming
 - Added an option to return and edit appointment details before confirmation
@@ -617,3 +617,6 @@ Live Blogger (2023) Design A Responsive Testimonials Page using HTML, CSS and JS
 
 JsAcademyOfficial (2021) Form validation using JavaScript on the client side for beginners. Available at: https://m.youtube.com/watch?v=RbVY3UsUx_g&t=50s&pp=2AEykAIB&ra=m (Assessed: 28 October 2026) 
 Florin Pop (2020) Create a Modal (Popup) with HTML/CSS and Javascript. Available at: https://m.youtube.com/watch?v=XH5OW46yO8I&pp=ygUIbW9kYWwganPSBwkJKwwBhyohjO8%3D&ra=m (Assessed: 28 October 2026)
+W3Schools,(n.d.) What is JSON. Available at: https://www.w3schools.com/js/js_json.asp (Assessed: 1 November 2026)
+W3Schools,(n.d.) Windows LocalStorage. Available at: https://www.w3schools.com/jsref/prop_win_localstorage.asp (Assessed: 1 November 2026)
+GeeksforGeeks(2026) JavaScript Arrays. Available at: https://www.geeksforgeeks.org/javascript/javascript-arrays/ (Assessed: 1 November 2026)
